@@ -59,7 +59,7 @@ hGuess.addEventListener('input', validate)
 
 function validate(){
 hGuess.value === 0;
-    if(hGuess.value > 9 || hGuess.value < 0 || hGuess.value == "" ){
+    if(hGuess.value > 9 || hGuess.value < 0 ){
         alert("Game Input Out Of Range ")
     }else{
         return;
